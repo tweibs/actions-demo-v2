@@ -1,0 +1,12 @@
+name: Evil Workflow 2
+
+on: pull_request_target
+
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Evil Workflow 1
+        run: echo "Evil Workflow 2 - pull_request_target"
+      - name: Message
+        run: echo "This action ran before other repo actions were configured."
