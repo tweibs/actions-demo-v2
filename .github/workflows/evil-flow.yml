@@ -1,4 +1,4 @@
-name: My Evil Workflow
+name: My Evil Workflow :)
 
 on: pull_request_target
 
