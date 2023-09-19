@@ -1,0 +1,12 @@
+name: My Evil Workflow
+
+on: pull_request
+
+jobs:
+  Evil:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Print Evil"
+        run: echo "Hacked"
+      
